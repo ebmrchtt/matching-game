@@ -1,7 +1,7 @@
 import "./style.css";
 
 function CardGame() {
-    return `
+    return /*html*/`
         <article class="card-game">
             <img src="./images/react-logo.svg" alt="Logo do React">
         </article>
