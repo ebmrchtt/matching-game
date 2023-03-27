@@ -1,9 +1,9 @@
 import "./style.css";
 
-function CardGame() {
+function CardGame(icon = "react-logo" , alt = "Logo do React") {
     return /*html*/`
         <article class="card-game">
-            <img src="./images/react-logo.svg" alt="Logo do React">
+            <img src="./images/${icon}.svg" alt="${alt}">
         </article>
     `;
 }
