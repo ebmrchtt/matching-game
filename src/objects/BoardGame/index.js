@@ -6,7 +6,7 @@ function BoardGame(amountCards) {
     const $htmlContent = $htmlCardFrontBack.repeat(amountCards);
     
     return /*html*/`
-    <section class="board-game">  
+    <section class="board-game">
         ${$htmlContent}
     </section>  `;
 }
