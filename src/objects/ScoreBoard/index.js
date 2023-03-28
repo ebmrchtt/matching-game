@@ -7,7 +7,7 @@ import "./style.css";
 function ScoreBoard() {
     return /*html*/` 
         <header class="score-board">
-            ${(ArrowPlayer())}
+            ${(ArrowPlayer(2))}
             ${PlayerName("PLAYER 1")}
             ${PlayerScore(2)}
             ${VsPlayer()}
